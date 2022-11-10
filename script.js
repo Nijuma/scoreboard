@@ -4,6 +4,8 @@ const plus3 = document.querySelectorAll(".plus3");
 const score1 = document.querySelector(".score1");
 const score2 = document.querySelector(".score2");
 const reset = document.querySelector(".reset");
+const scoreb = document.querySelector('.score-back1')
+const scoreb2 = document.querySelector('.score-back2')
 
 let totalHome = 0;
 let totalGuest = 0;
