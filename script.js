@@ -46,3 +46,15 @@ function reseter() {
   score1.textContent = 0;
   score2.textContent = 0;
 }
+if(score1 > score2){
+  document.getElementById("scoreb").style.backgroundColor = 'green';
+}
+else if(totalGuest > totalHome){
+ document.getElementById("scoreb2").style.backgroundColor = 'green';
+}
+else{
+  totalGuest === totalHome
+ document.getElementById("scoreb").style.backgroundColor ='black'
+document.getElementById("scoreb2").style.backgroundColor = 'black'
+}
+
